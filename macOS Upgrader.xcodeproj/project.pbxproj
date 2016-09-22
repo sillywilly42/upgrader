@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D15A3171D40D253002A3E90 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D15A3161D40D253002A3E90 /* DownloadManager.m */; };
+		8D15A31A1D410B52002A3E90 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D15A3191D410B52002A3E90 /* Settings.m */; };
+		8D3BF46D1D3FBD78002669D3 /* StageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BF46B1D3FBD78002669D3 /* StageManager.m */; };
+		8D3BF46E1D3FBD78002669D3 /* StageManager.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3BF46C1D3FBD78002669D3 /* StageManager.xib */; };
+		8D3BF4721D3FCCF2002669D3 /* Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BF4701D3FCCF2002669D3 /* Download.m */; };
+		8D3BF4731D3FCCF2002669D3 /* Download.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3BF4711D3FCCF2002669D3 /* Download.xib */; };
+		8D3BF4771D3FD6EE002669D3 /* Install.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BF4751D3FD6EE002669D3 /* Install.m */; };
+		8D3BF4781D3FD6EE002669D3 /* Install.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3BF4761D3FD6EE002669D3 /* Install.xib */; };
+		8D58B8E91D48BD6B00CEF458 /* fonz.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8D58B8E81D48BD6B00CEF458 /* fonz.tiff */; };
+		8D58B8EC1D48C08800CEF458 /* FonzieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58B8EB1D48C08800CEF458 /* FonzieView.m */; };
+		8D58B8EF1D48C24800CEF458 /* FonzieWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58B8EE1D48C24800CEF458 /* FonzieWindow.m */; };
+		8D9137D81D3F9923003459D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9137D71D3F9923003459D8 /* AppDelegate.m */; };
+		8D9137DB1D3F9923003459D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9137DA1D3F9923003459D8 /* main.m */; };
+		8D9137DD1D3F9923003459D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9137DC1D3F9923003459D8 /* Assets.xcassets */; };
+		8D9137E01D3F9923003459D8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9137DE1D3F9923003459D8 /* MainMenu.xib */; };
+		8D9137EC1D3FA784003459D8 /* arrowbutton.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8D9137E81D3FA784003459D8 /* arrowbutton.tiff */; };
+		8D9137EF1D3FA784003459D8 /* arrowbuttonPressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8D9137EB1D3FA784003459D8 /* arrowbuttonPressed.tiff */; };
+		8D9137F51D3FA8F1003459D8 /* Stage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9137F31D3FA8F1003459D8 /* Stage.xib */; };
+		8D9137F91D3FA965003459D8 /* Welcome.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9137F71D3FA965003459D8 /* Welcome.m */; };
+		8D9137FA1D3FA965003459D8 /* Welcome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9137F81D3FA965003459D8 /* Welcome.xib */; };
+		8D9137FC1D3FA9AD003459D8 /* macOS-logo.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8D9137FB1D3FA9AD003459D8 /* macOS-logo.tiff */; };
+		8D9138021D3FB06C003459D8 /* PreUpgradeChecks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9138001D3FB06C003459D8 /* PreUpgradeChecks.m */; };
+		8D9138031D3FB06C003459D8 /* PreUpgradeChecks.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9138011D3FB06C003459D8 /* PreUpgradeChecks.xib */; };
+		8D9138061D3FB81D003459D8 /* Stage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9138051D3FB81C003459D8 /* Stage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D15A3151D40D253002A3E90 /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
+		8D15A3161D40D253002A3E90 /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
+		8D15A3181D410B52002A3E90 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		8D15A3191D410B52002A3E90 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		8D15A3321D47798A002A3E90 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8D3BF46A1D3FBD78002669D3 /* StageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageManager.h; sourceTree = "<group>"; };
+		8D3BF46B1D3FBD78002669D3 /* StageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageManager.m; sourceTree = "<group>"; };
+		8D3BF46C1D3FBD78002669D3 /* StageManager.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StageManager.xib; sourceTree = "<group>"; };
+		8D3BF46F1D3FCCF2002669D3 /* Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Download.h; sourceTree = "<group>"; };
+		8D3BF4701D3FCCF2002669D3 /* Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Download.m; sourceTree = "<group>"; };
+		8D3BF4711D3FCCF2002669D3 /* Download.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Download.xib; sourceTree = "<group>"; };
+		8D3BF4741D3FD6EE002669D3 /* Install.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Install.h; sourceTree = "<group>"; };
+		8D3BF4751D3FD6EE002669D3 /* Install.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Install.m; sourceTree = "<group>"; };
+		8D3BF4761D3FD6EE002669D3 /* Install.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Install.xib; sourceTree = "<group>"; };
+		8D58B8E81D48BD6B00CEF458 /* fonz.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = fonz.tiff; sourceTree = "<group>"; };
+		8D58B8EA1D48C08800CEF458 /* FonzieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FonzieView.h; sourceTree = "<group>"; };
+		8D58B8EB1D48C08800CEF458 /* FonzieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FonzieView.m; sourceTree = "<group>"; };
+		8D58B8ED1D48C24800CEF458 /* FonzieWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FonzieWindow.h; sourceTree = "<group>"; };
+		8D58B8EE1D48C24800CEF458 /* FonzieWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FonzieWindow.m; sourceTree = "<group>"; };
+		8D9137D31D3F9923003459D8 /* macOS Upgrader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macOS Upgrader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9137D61D3F9923003459D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D9137D71D3F9923003459D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D9137DA1D3F9923003459D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D9137DC1D3F9923003459D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D9137DF1D3F9923003459D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8D9137E11D3F9923003459D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D9137E81D3FA784003459D8 /* arrowbutton.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = arrowbutton.tiff; sourceTree = "<group>"; };
+		8D9137EB1D3FA784003459D8 /* arrowbuttonPressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = arrowbuttonPressed.tiff; sourceTree = "<group>"; };
+		8D9137F31D3FA8F1003459D8 /* Stage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Stage.xib; sourceTree = "<group>"; };
+		8D9137F61D3FA965003459D8 /* Welcome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Welcome.h; sourceTree = "<group>"; };
+		8D9137F71D3FA965003459D8 /* Welcome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Welcome.m; sourceTree = "<group>"; };
+		8D9137F81D3FA965003459D8 /* Welcome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Welcome.xib; sourceTree = "<group>"; };
+		8D9137FB1D3FA9AD003459D8 /* macOS-logo.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "macOS-logo.tiff"; sourceTree = "<group>"; };
+		8D9137FF1D3FB06C003459D8 /* PreUpgradeChecks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreUpgradeChecks.h; sourceTree = "<group>"; };
+		8D9138001D3FB06C003459D8 /* PreUpgradeChecks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreUpgradeChecks.m; sourceTree = "<group>"; };
+		8D9138011D3FB06C003459D8 /* PreUpgradeChecks.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreUpgradeChecks.xib; sourceTree = "<group>"; };
+		8D9138041D3FB81C003459D8 /* Stage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage.h; sourceTree = "<group>"; };
+		8D9138051D3FB81C003459D8 /* Stage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage.m; sourceTree = "<group>"; };
+		8DBB04CA1D92BDC7009C2DAC /* com.megacorp.macOS-Upgrader.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "com.megacorp.macOS-Upgrader.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D9137D01D3F9923003459D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D9137CA1D3F9923003459D8 = {
+			isa = PBXGroup;
+			children = (
+				8D9137D51D3F9923003459D8 /* macOS Upgrader */,
+				8D9137D41D3F9923003459D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D9137D41D3F9923003459D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D9137D31D3F9923003459D8 /* macOS Upgrader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D9137D51D3F9923003459D8 /* macOS Upgrader */ = {
+			isa = PBXGroup;
+			children = (
+				8DA0D4021D3FDCCB007CDEE5 /* Main Source */,
+				8D9137D91D3F9923003459D8 /* Supporting Files */,
+			);
+			path = "macOS Upgrader";
+			sourceTree = "<group>";
+		};
+		8D9137D91D3F9923003459D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D9137DE1D3F9923003459D8 /* MainMenu.xib */,
+				8D9137DC1D3F9923003459D8 /* Assets.xcassets */,
+				8D9137E11D3F9923003459D8 /* Info.plist */,
+				8D9137E71D3FA726003459D8 /* images */,
+				8D9137DA1D3F9923003459D8 /* main.m */,
+				8D15A3321D47798A002A3E90 /* PrefixHeader.pch */,
+				8DBB04CA1D92BDC7009C2DAC /* com.megacorp.macOS-Upgrader.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D9137E71D3FA726003459D8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8D9137E81D3FA784003459D8 /* arrowbutton.tiff */,
+				8D58B8E81D48BD6B00CEF458 /* fonz.tiff */,
+				8D9137FB1D3FA9AD003459D8 /* macOS-logo.tiff */,
+				8D9137EB1D3FA784003459D8 /* arrowbuttonPressed.tiff */,
+			);
+			name = images;
+			path = "macOS Upgrader/Supporting Files/images";
+			sourceTree = SOURCE_ROOT;
+		};
+		8D9137F01D3FA892003459D8 /* Stages */ = {
+			isa = PBXGroup;
+			children = (
+				8D9137F61D3FA965003459D8 /* Welcome.h */,
+				8D9137F71D3FA965003459D8 /* Welcome.m */,
+				8D9137F81D3FA965003459D8 /* Welcome.xib */,
+				8D9137FF1D3FB06C003459D8 /* PreUpgradeChecks.h */,
+				8D9138001D3FB06C003459D8 /* PreUpgradeChecks.m */,
+				8D9138011D3FB06C003459D8 /* PreUpgradeChecks.xib */,
+				8D3BF46F1D3FCCF2002669D3 /* Download.h */,
+				8D3BF4701D3FCCF2002669D3 /* Download.m */,
+				8D3BF4711D3FCCF2002669D3 /* Download.xib */,
+				8D3BF4741D3FD6EE002669D3 /* Install.h */,
+				8D3BF4751D3FD6EE002669D3 /* Install.m */,
+				8D3BF4761D3FD6EE002669D3 /* Install.xib */,
+			);
+			path = Stages;
+			sourceTree = "<group>";
+		};
+		8DA0D4021D3FDCCB007CDEE5 /* Main Source */ = {
+			isa = PBXGroup;
+			children = (
+				8D9137D61D3F9923003459D8 /* AppDelegate.h */,
+				8D9137D71D3F9923003459D8 /* AppDelegate.m */,
+				8D15A3151D40D253002A3E90 /* DownloadManager.h */,
+				8D15A3161D40D253002A3E90 /* DownloadManager.m */,
+				8D15A3181D410B52002A3E90 /* Settings.h */,
+				8D15A3191D410B52002A3E90 /* Settings.m */,
+				8D9138041D3FB81C003459D8 /* Stage.h */,
+				8D9138051D3FB81C003459D8 /* Stage.m */,
+				8D9137F31D3FA8F1003459D8 /* Stage.xib */,
+				8D3BF46A1D3FBD78002669D3 /* StageManager.h */,
+				8D3BF46B1D3FBD78002669D3 /* StageManager.m */,
+				8D3BF46C1D3FBD78002669D3 /* StageManager.xib */,
+				8D9137F01D3FA892003459D8 /* Stages */,
+				8D58B8EA1D48C08800CEF458 /* FonzieView.h */,
+				8D58B8EB1D48C08800CEF458 /* FonzieView.m */,
+				8D58B8ED1D48C24800CEF458 /* FonzieWindow.h */,
+				8D58B8EE1D48C24800CEF458 /* FonzieWindow.m */,
+			);
+			path = "Main Source";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D9137D21D3F9923003459D8 /* macOS Upgrader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D9137E41D3F9923003459D8 /* Build configuration list for PBXNativeTarget "macOS Upgrader" */;
+			buildPhases = (
+				8D9137CF1D3F9923003459D8 /* Sources */,
+				8D9137D01D3F9923003459D8 /* Frameworks */,
+				8D9137D11D3F9923003459D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "macOS Upgrader";
+			productName = "macOS Upgrader";
+			productReference = 8D9137D31D3F9923003459D8 /* macOS Upgrader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D9137CB1D3F9923003459D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					8D9137D21D3F9923003459D8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 8D9137CE1D3F9923003459D8 /* Build configuration list for PBXProject "macOS Upgrader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D9137CA1D3F9923003459D8;
+			productRefGroup = 8D9137D41D3F9923003459D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D9137D21D3F9923003459D8 /* macOS Upgrader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D9137D11D3F9923003459D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9137FA1D3FA965003459D8 /* Welcome.xib in Resources */,
+				8D3BF4731D3FCCF2002669D3 /* Download.xib in Resources */,
+				8D9137FC1D3FA9AD003459D8 /* macOS-logo.tiff in Resources */,
+				8D9137F51D3FA8F1003459D8 /* Stage.xib in Resources */,
+				8D3BF46E1D3FBD78002669D3 /* StageManager.xib in Resources */,
+				8D9137DD1D3F9923003459D8 /* Assets.xcassets in Resources */,
+				8D58B8E91D48BD6B00CEF458 /* fonz.tiff in Resources */,
+				8D9137EF1D3FA784003459D8 /* arrowbuttonPressed.tiff in Resources */,
+				8D9137EC1D3FA784003459D8 /* arrowbutton.tiff in Resources */,
+				8D9137E01D3F9923003459D8 /* MainMenu.xib in Resources */,
+				8D9138031D3FB06C003459D8 /* PreUpgradeChecks.xib in Resources */,
+				8D3BF4781D3FD6EE002669D3 /* Install.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D9137CF1D3F9923003459D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9138061D3FB81D003459D8 /* Stage.m in Sources */,
+				8D9137F91D3FA965003459D8 /* Welcome.m in Sources */,
+				8D15A31A1D410B52002A3E90 /* Settings.m in Sources */,
+				8D9138021D3FB06C003459D8 /* PreUpgradeChecks.m in Sources */,
+				8D3BF4771D3FD6EE002669D3 /* Install.m in Sources */,
+				8D9137DB1D3F9923003459D8 /* main.m in Sources */,
+				8D3BF46D1D3FBD78002669D3 /* StageManager.m in Sources */,
+				8D3BF4721D3FCCF2002669D3 /* Download.m in Sources */,
+				8D9137D81D3F9923003459D8 /* AppDelegate.m in Sources */,
+				8D58B8EC1D48C08800CEF458 /* FonzieView.m in Sources */,
+				8D15A3171D40D253002A3E90 /* DownloadManager.m in Sources */,
+				8D58B8EF1D48C24800CEF458 /* FonzieWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D9137DE1D3F9923003459D8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D9137DF1D3F9923003459D8 /* Base */,
+			);
+			name = MainMenu.xib;
+			path = "macOS Upgrader/Supporting Files";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D9137E21D3F9923003459D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8D9137E31D3F9923003459D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8D9137E51D3F9923003459D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "macOS Upgrader/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/macOS Upgrader/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.megacorp.macOS-Upgrader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D9137E61D3F9923003459D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "macOS Upgrader/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/macOS Upgrader/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.megacorp.macOS-Upgrader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D9137CE1D3F9923003459D8 /* Build configuration list for PBXProject "macOS Upgrader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D9137E21D3F9923003459D8 /* Debug */,
+				8D9137E31D3F9923003459D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D9137E41D3F9923003459D8 /* Build configuration list for PBXNativeTarget "macOS Upgrader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D9137E51D3F9923003459D8 /* Debug */,
+				8D9137E61D3F9923003459D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D9137CB1D3F9923003459D8 /* Project object */;
+}

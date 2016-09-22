@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kJDSExternalHost</key>
+	<string>fileserver.external.megacorp.com</string>
+	<key>kURLPattern</key>
+	<string>https://%@/CasperShare/InstallOSX_10.12_16A323.dmg</string>
+	<key>kStartosinstallPath</key>
+	<string>Contents/Resources/startosinstall</string>
+	<key>kMountPoint</key>
+	<string>/Volumes/OSXUpgradeImage</string>
+	<key>kNetblocks</key>
+	<dict>
+		<key>10.0.1.0/24</key>
+		<string>LON</string>
+		<key>10.0.2.0/24</key>
+		<string>MTV</string>
+		<key>10.0.3.0/24</key>
+		<string>NYC</string>
+	</dict>
+	<key>kJDS</key>
+	<dict>
+		<key>LON</key>
+		<string>fileserver.london.megacorp.com</string>
+		<key>MTV</key>
+		<string>fileserver.mountainview.megacorp.com</string>
+		<key>NYC</key>
+		<string>fileserver.newyork.megacorp.com</string>
+	</dict>
+</dict>
+</plist>

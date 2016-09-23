@@ -35,6 +35,11 @@ This is very geared towards our environment where we have an externally
 accessible server which we can fall back on if there's no local office mirror.
 It would probably be best to re-write Download.m to fit your environment.
 
+Out of the box you can set some defaults in the code, and/or override them with
+a plist in /Library/Preferences. We identify which office our Macs are in by
+netblock, so, as it's written, you define a dictionary of netblocks -> office
+identifier, and another dictionary of office identifier -> download server.
+
 ## Installing
 
 This is done using Apple's poorly documented startosinstall command.

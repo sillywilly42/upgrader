@@ -42,4 +42,6 @@ identifier, and another dictionary of office identifier -> download server.
 
 ## Installing
 
-This is done using Apple's poorly documented startosinstall command.
+The thing you need to be downloading is a DMG containing 'Install macOS
+Sierra.app'. The install is done using Apple's poorly documented startosinstall
+command.

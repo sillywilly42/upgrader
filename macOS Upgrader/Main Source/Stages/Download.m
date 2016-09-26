@@ -80,7 +80,6 @@
   if (!ip || !netmask) {
     return nil;
   }
-  
  
   struct in_addr ipAddr, mask, network;
   inet_aton([ip cStringUsingEncoding:NSASCIIStringEncoding], &ipAddr);
@@ -88,13 +87,8 @@
   network.s_addr = ipAddr.s_addr & mask.s_addr;
   
   int hostBits = 0;
-  int shiftingMask = mask.s_addr;
   for (int i = 0; i < 32; i++) {
-    // Mask is in network byte order so MSB of the int is the lowest bit of the mask.
-    // Because the MSB of an int determines if the int is < or > 0...
-    if (shiftingMask > 0) {
       hostBits++;
-      shiftingMask <<= 1;
     } else {
       break;
     }

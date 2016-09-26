@@ -86,9 +86,18 @@
   inet_aton([netmask cStringUsingEncoding:NSASCIIStringEncoding], &mask);
   network.s_addr = ipAddr.s_addr & mask.s_addr;
   
+  // Reformat the address from network byte order to a regular mask.
+  uint8_t byte1 = (mask.s_addr >> 0) & 0xFF;
+  uint8_t byte2 = (mask.s_addr >> 8) & 0xFF;
+  uint8_t byte3 = (mask.s_addr >> 16) & 0xFF;
+  uint8_t byte4 = (mask.s_addr >> 24) & 0xFF;
+  uint32_t shiftingMask = (byte1 << 24) | (byte2 << 16) | (byte3 << 8) | (byte4 << 0);
+  
   int hostBits = 0;
   for (int i = 0; i < 32; i++) {
+    if ((shiftingMask & 1) == 0) {
       hostBits++;
+      shiftingMask >>= 1;
     } else {
       break;
     }
